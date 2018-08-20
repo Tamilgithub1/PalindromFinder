@@ -7,7 +7,7 @@ public class wifi{
 		sb.append(N);
 		int r=Integer.parseInt(sb.reverse().toString());
 		System.out.println("R is :"+r);
-		if(N==r && N<=1000)
+		if(N==r)
 			System.out.println("Yes");
 		else
 			System.out.println("No");
